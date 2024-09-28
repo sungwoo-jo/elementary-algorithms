@@ -1,4 +1,7 @@
-def bf_match(txt, pat):
+# 브루트 포스법으로 문자열 검색하기
+
+def bf_match(txt: str, pat: str) -> int:
+    """브루트 포스법으로 문자열 검색"""
     pt = 0  # txt를 따라가는 커서
     pp = 0  # pat를 따라가는 커서
 
